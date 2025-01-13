@@ -1,0 +1,27 @@
+// const infiniteNumbers = require('../src/infininite_sequence');
+
+// infininite_sequence.test.js
+
+// describe('infiniteNumbers generator function', () => {
+//     let numbers;
+
+//     beforeEach(() => {
+//         numbers = infiniteNumbers();
+//     });
+
+//     test('should start with 0', () => {
+//         expect(numbers.next().value).toBe(0);
+//     });
+
+//     test('should increment by 1', () => {
+//         numbers.next(); // 0
+//         expect(numbers.next().value).toBe(1);
+//         expect(numbers.next().value).toBe(2);
+//     });
+
+//     test('should continue incrementing indefinitely', () => {
+//         for (let i = 0; i < 1000; i++) {
+//             expect(numbers.next().value).toBe(i);
+//         }
+//     });
+// });

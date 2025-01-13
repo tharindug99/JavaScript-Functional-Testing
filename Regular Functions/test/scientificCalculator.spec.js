@@ -1,5 +1,3 @@
-const { expect } = require("chai");
-
 const scientificCalculator = require("../src/scientificCalculator");
 
 describe("Testing scientific calculator methods", function () {

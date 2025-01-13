@@ -1,6 +1,3 @@
-const chai = require('chai')
-const expect = chai.expect
-
 const { getEmployeeOverFifty, getTotalNoOfDaysSinceJoining } = require('../src/employee')
 
 describe('Test getEmployeeOverFifty', () => {

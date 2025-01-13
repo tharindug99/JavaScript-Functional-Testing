@@ -1,4 +1,3 @@
-// __tests__/areaCalculator.test.js
 const { calculateArea } = require('../src/areacalculator'); // Adjust the path based on your directory structure
 
 describe('calculateArea', () => {
